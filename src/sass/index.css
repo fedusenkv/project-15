@@ -8,6 +8,7 @@
   --hover-button: #0A8817;
   --disabled-button: #ABABAB;
   --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Seymour One", sans-serif;
   --modal-input-color: rgba(248, 210, 78, 0.1);
   --contacts-text-color: #ABABAB;
   --address-text-color: #D6936D;
@@ -52,9 +53,10 @@ button {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-family: "Seymour One", sans-serif;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--base-text-color);
 }
 
 .container {
@@ -83,4 +85,8 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }/*# sourceMappingURL=index.css.map */

@@ -37,9 +37,10 @@ button {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-family: 'Seymour One', sans-serif;
+font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--base-text-color);
     
 }
 
