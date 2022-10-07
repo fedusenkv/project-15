@@ -1,0 +1,58 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --base-bg-color: #84A178;
+  --second-bg-color: #FCFCFC;
+  --base-text-color: #131313;
+  --second-text-color: #FCFCFC;
+  --accent-color: #F8D24E;
+  --hover-button: #0A8817;
+  --disabled-button: #ABABAB;
+  --primary-font: "Montserrat", sans-serif;
+  --modal-input-color: rgba(248, 210, 78, 0.1);
+  --contacts-text-color: #ABABAB;
+  --address-text-color: #D6936D;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-family: "Seymour One", sans-serif;
+}/*# sourceMappingURL=index.css.map */

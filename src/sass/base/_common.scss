@@ -1,0 +1,45 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-family: 'Seymour One', sans-serif;
+    
+}
+
