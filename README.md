@@ -1,5 +1,5 @@
 
-**PROJECT-15 PAGES: [https://fedusenkv.github.io/project-15/](LIVE PAGE), [https://github.com/fedusenkv/project-15](РЕПОЗИТОРІЙ).**
+**PROJECT-15 PAGES: [https://fedusenkv.github.io/project-15/].[https://github.com/fedusenkv/project-15]**
 
 # Parcel template
 
