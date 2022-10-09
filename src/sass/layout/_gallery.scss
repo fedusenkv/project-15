@@ -1,0 +1,32 @@
+.gallery__try {
+    margin-left: -20px;
+    height: 94px;
+    background-color: #84A178;
+    width: 480px;
+
+@media screen and (min-width: 768px) {
+width: 768px;
+margin-left: -32px;
+}
+
+@media screen and (min-width: 1200px) {
+width: 1200px;
+margin-left: -16px;
+}}
+
+
+.hidden-visally {
+    position: fixed;
+    transform: scale(0);
+}
+
+.gallery__foto {
+    display: block;
+    margin: 0 auto;
+    // width: 1013px;
+    // height: 422px;
+    margin-top: -94px;
+    margin-bottom: 55px;
+    /* outline: 2px solid tomato; */
+}
+
