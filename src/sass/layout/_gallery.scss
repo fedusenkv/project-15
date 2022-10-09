@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__try {
+    width: 100%;
+    height: 94px;
+    background-color: #84A178;
+    width: 1200px;
+}
+
+.hidden-visally {
+    position: fixed;
+    transform: scale(0);
+}
+
+.gallery__foto {
+    display: block;
+    margin: 0 auto;
+    width: 1013px;
+    height: 422px;
+    margin-top: -94px;
+    padding-left: 93px;
+    padding-right: 94px;
+    /* outline: 2px solid tomato; */
+}
+
+.gallery__picture {
+    position: absolute;
+    top: 100px;
+    // background-image: url(../img/Frame\ 18.png);
+    width: 1200px;
+    height: 1228px;
+    background-repeat: no-repeat;
+}
