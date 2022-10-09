@@ -1,4 +1,5 @@
-**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**
+
+**PROJECT-15 LIVE PAGE: [https://fedusenkv.github.io/project-15/]**
 
 # Parcel template
 
