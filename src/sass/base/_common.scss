@@ -33,7 +33,11 @@ button {
 }
 
 .list {
+
+  list-style-type: none;
+=======
   list-style: none;
+
 }
 
 body {
@@ -41,5 +45,8 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: var(--base-text-color);
+
+=======
   background-image: url(../images/фон.jpg);
+
 }
