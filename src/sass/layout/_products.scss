@@ -34,7 +34,7 @@
 
 .products__item {
   display: block;
-  list-style: none;
+
   @media screen and (min-width: 768px) {
     width: calc((100% - 32px) / 3);
   }
