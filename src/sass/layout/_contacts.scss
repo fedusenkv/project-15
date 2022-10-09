@@ -161,17 +161,23 @@
 }
 
 .contact__button-item {
-    width: 196px;
     background: #F8D24E;
     border-radius: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 34px;
+    padding-right: 52px;
     border: 2px solid transparent;
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28;
+    position: relative;
 
+    @media screen and (max-width: 280px) {
+        min-height: 64px;
+        
+    }
     &:last-child {
         margin-bottom: 0px;
         border: 2px solid transparent;
@@ -196,16 +202,21 @@
 }
 
 .contact__button-item-second {
-    width: 196px;
+    position: relative;
     border-radius: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 34px;
+    padding-right: 52px;
     border: 2px solid #F8D24E;
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28;
-
+    @media screen and (max-width: 280px) {
+        min-height: 64px;
+        
+    }
     &:hover {
         border: 2px solid rgb(10, 136, 23);
     }
@@ -291,5 +302,25 @@
 .phone-mail__item {
     font-size: 16px;
 }
+}
+.contact-button__svg {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+        top: 15px;
+        right: 32px;
+        @media screen and (max-width:280px)  {
+            top: 24px;
+            
+        }
 
+    &:focus {
+
+        fill: rgba(252, 252, 252, 1) ;
+    }
+
+   
+}
+.contact__button-item:focus .contact-button__svg {
+    fill: rgba(252, 252, 252, 1);
 }
