@@ -1,13 +1,20 @@
 .modal-ourlocation {
+        display: flex;
+            flex-direction: column;
     background-color: white;
     max-width: 280px;
-    max-height: 459px;
+    max-height: 365px;
     position: absolute;
     border-radius: 4px;
-        padding: 40px;
+        padding: 28px;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%) scale(1);
+        @media screen and (min-width:768px) {
+            min-width: 568px;
+            min-height: 458px
+            
+        }
 }
 .backdrop {
     position: fixed;
@@ -36,4 +43,7 @@
             right: 0px;
             background-color: transparent;
             border: 0;
+}
+.ourlocation__image {
+    background-image: url(/src/images/contact/);
 }
