@@ -33,6 +33,11 @@ li {
       #d9d9d9;
     box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
   }
+  @media screen and (min-width: 768px) {
+    padding: 32px 40px;
+    width: 568px;
+    height: 995px;
+  }
 }
 // кнопка закриття
 .modal-prod__close {
@@ -91,6 +96,9 @@ li {
   }
   .bord2 {
     border: 2px solid var(--bg-product3);
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 39px;
   }
 }
 
@@ -188,4 +196,10 @@ li {
 .fone__btn {
   display: block;
   margin: 0 auto;
+}
+.modal-prod__form {
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    margin: 0 auto;
+  }
 }
