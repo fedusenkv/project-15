@@ -7,7 +7,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Page title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,26 +22,24 @@
   </head>
   <body>
     <!--Oleksandr Zhezhera-->
-    <include src="./partials/hero-header.html"></include>
+    <main>
+      <include src="./partials/hero-header.html"></include>
 
-    <!--Костянтин Чуєнко-->
-    <include src="./partials/products.html"></include>
+      <!--Костянтин Чуєнко-->
+      <include src="./partials/products.html"></include>
 
-    <!--Lugoviy_Mukola-->
-    <include src="./partials/about.html"></include>
+      <!--Lugoviy_Mukola-->
+      <include src="./partials/about.html"></include>
 
-    <!--Алексей Машичев-->
-    <include src="./partials/advantages.html"></include>
+      <!--Андрей Мурлыкин-->
+      <include src="./partials/gallery.html"></include>
 
-    <!--Андрей Мурлыкин-->
-    <include src="./partials/gallery.html"></include>
+      <!--Anna Yuzkova-->
+      <include src="./partials/customer-reviews.html"></include>
 
-    <!--Anna Yuzkova-->
-    <include src="./partials/customer-reviews.html"></include>
-
-    <!--Roman Shcherbyna-->
-    <include src="./partials/contacts.html"></include>
-
+      <!--Roman Shcherbyna-->
+      <include src="./partials/contacts.html"></include>
+    </main>
     <!--Кирилл Арутюнов-->
     <include src="./partials/footer.html"></include>
 
@@ -47,8 +48,10 @@
     <script src="./js/slider.js"></script>
     <script src="./js/scripts.js"></script>
     <script src="./js/wow.min.js"></script>
+    <script src="./js/modal-location.js"></script>
+    <script src="./js/modal-franchise.js"></script>
     <script>
-    new WOW().init();
-  </script>
+      new WOW().init();
+    </script>
   </body>
 </html>
