@@ -12,9 +12,26 @@
         transform: translate(-50%, -50%) scale(1);
         @media screen and (min-width:768px) {
             min-width: 568px;
-            min-height: 458px
+            min-height: 458px;
+            padding:20px;
             
         }
+     
+
+    }
+
+.modal-ourlocation .contact__button-item {
+        margin-left: auto;
+            margin-right: auto;
+    @media screen and (max-width:767px) {
+        font-size: 12px;
+        margin-top: 24px;
+        
+    }
+    @media screen and (min-width:768px) {
+        margin-top: 32px;
+        
+    }
 }
 .backdrop {
     position: fixed;
@@ -33,6 +50,11 @@
         position: absolute;
         top: 8px;
         right: 8px;
+        @media screen and (min-width:768px) {
+            top: 20px;
+                right: 20px;
+            
+        }
       
 }
 .button-close {
@@ -44,6 +66,34 @@
             background-color: transparent;
             border: 0;
 }
+.modal-ourlocation__title {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: auto;
+        margin-right: auto;
+        @media screen and (min-width:768px) {
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 32px;
+        
+            }
+    }
+   
+
+
+
 .ourlocation__image {
-    background-image: url(/src/images/contact/);
+    min-width: 224px;
+    min-height: 199px;
+    background-image: url(/src/images/modal/poltava-small.jpeg);
+        @media screen and (min-width:768px) {
+            background-image: url(/src/images/modal/poltava-large.jpeg);
+                margin-right: auto;
+                    margin-left: auto;
+                    min-width: 448px;
+        }
 }
