@@ -90,6 +90,7 @@
     margin-bottom: 20px;
     background: #F8D24E;
     font-size: 12px;
+    transition: all 150ms cubic-bezier(.5, .55, .63, .54);
 
     @media screen and (min-width: 768px) {
         font-size: 16px;
@@ -187,6 +188,9 @@
     font-size: 14px;
     line-height: 1.28;
     position: relative;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms cubic-bezier(.23, .56, .74, .09);
+  
 
     @media screen and (max-width: 280px) {
         min-height: 64px;
@@ -199,7 +203,8 @@
 
     &:hover {
         background-color: rgba(10, 136, 23, 1);
-        border: 2px solid transparent;
+        border: 8px solid rgba(10, 136, 23,);
+        color: white;
     }
 
     &:focus {
@@ -222,7 +227,11 @@
     padding-bottom: 12px;
     padding-left: 34px;
     padding-right: 52px;
-    border: 2px solid #F8D24E;
+    outline: 3px solid;
+    outline-color: rgb(248, 210, 78);
+    outline-offset: 0px;
+    border: 0px;
+    transition: all 150ms cubic-bezier(.23, .56, .74, .09);
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;
@@ -232,7 +241,9 @@
         
     }
     &:hover {
-        border: 2px solid rgb(10, 136, 23);
+                outline-color: rgb(10, 138, 23);
+                outline-offset: 8px;
+                color: white;
     }
 
     &:focus {
@@ -340,4 +351,34 @@
 }
 .contact__button-item:focus .contact-button__svg {
     fill: rgba(252, 252, 252, 1);
+}
+.contact .contact__button {
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-bottom: 0px;
+            flex-direction: row;
+        
+    }
+
+}
+
+    @media screen and (min-width:678px) {
+       .contact .contact__button-item {
+        margin-bottom: 0px;
+        &:first-child {
+            margin-right: 15px;
+        }
+        
+
+    }
+}
+.contact .contact__button-item:hover~.contact__button-item-second .contact-button__svg{
+    transition: all 150ms  cubic-bezier(.5, .55, .63, .54);
+}
+.contact .contact__button-item:hover ~ .contact__button-item-second .contact-button__svg {
+    top: 23px;
+    transition: all 150ms cubic-bezier(.5, .55, .63, .54);
+}
+.contact__button-item-second .contact-button__svg {
+    top: 18px;
 }
