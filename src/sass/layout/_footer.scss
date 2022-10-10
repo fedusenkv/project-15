@@ -1,0 +1,120 @@
+.footer_bg {
+padding-top: 553px;
+margin-top: -573px;
+
+background-color: var(--base-bg-color);
+width: 100%;
+}
+
+.footer_title-first {
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 30px;
+line-height: 1.22;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FCFCFC;
+}
+.footer-flex {
+display: flex;
+justify-content: space-between;
+}
+
+.footer-titles {
+    margin-top: 40px;
+}
+.footer_title-second {
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 58px;
+line-height: 1.2;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FCFCFC;
+}
+.footer_icon-list {
+display: flex;
+justify-content: right;
+align-items: center;
+column-gap: 27px;
+padding-top: 42px;
+padding-bottom: 38px;
+}
+
+.footer_contacts {
+justify-content: right;
+font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+
+}
+
+.footer_contact-box {
+display: flex;
+justify-content: right;
+align-items: center;
+margin-bottom: 40px;
+}
+.footer_phone-color {
+    color: var(--second-text-color);
+}
+
+.footer_social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--base-bg-color);
+    border-radius: 50%;
+    background-color: #F8D24E;
+    border-color: tomato;
+}
+
+.footer_bottom-text {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 152%;
+        text-align: center;
+        color: #7A7A7A;
+        border-top: 1px solid #E1E1E1;
+        padding-top: 16px;
+        padding-bottom: 62px;
+}
+
+.footer_social-link:focus {
+fill: #FCFCFC;
+width: 50px;
+height: 50px;
+outline: none;
+column-gap: 10px;
+}
+
+.footer_social-link:hover {
+fill: #FCFCFC;
+width: 50px;
+height: 50px;
+outline: none;
+column-gap: 10px;
+}
+
+
+@media screen and (min-width: 480px) {
+.container {
+width: 480px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.container {
+width: 768px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.container {
+width: 1200px;
+}
+}
