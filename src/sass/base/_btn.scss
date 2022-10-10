@@ -1,0 +1,24 @@
+.btn {
+  background: var(--accent-color);
+  border-radius: 10px;
+  padding: 12px 34px;
+  border: 2px solid transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  &:hover {
+    background-color: rgba(10, 136, 23, 1);
+    border: 2px solid transparent;
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(10, 136, 23, 1);
+    border: 2px solid transparent;
+  }
+
+  &:disabled {
+    background-color: rgba(171, 171, 171, 1);
+    border: 2px solid transparent;
+  }
+}

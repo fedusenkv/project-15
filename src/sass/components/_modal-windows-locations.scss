@@ -1,0 +1,99 @@
+.modal-ourlocation {
+        display: flex;
+            flex-direction: column;
+    background-color: white;
+    max-width: 280px;
+    max-height: 365px;
+    position: absolute;
+    border-radius: 4px;
+        padding: 28px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        @media screen and (min-width:768px) {
+            min-width: 568px;
+            min-height: 458px;
+            padding:20px;
+            
+        }
+     
+
+    }
+
+.modal-ourlocation .contact__button-item {
+        margin-left: auto;
+            margin-right: auto;
+    @media screen and (max-width:767px) {
+        font-size: 12px;
+        margin-top: 24px;
+        
+    }
+    @media screen and (min-width:768px) {
+        margin-top: 32px;
+        
+    }
+}
+.backdrop {
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .2);
+        opacity: 1;
+        -webkit-transition: opacity 250ms;
+        transition: opacity 250ms;
+}
+.location-close__svg {
+    width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        @media screen and (min-width:768px) {
+            top: 20px;
+                right: 20px;
+            
+        }
+      
+}
+.backdrop .button-close {
+    width: 16px;
+     height: 16px;
+        position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: transparent;
+            border: 0;
+}
+.modal-ourlocation__title {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: auto;
+        margin-right: auto;
+        @media screen and (min-width:768px) {
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 32px;
+        
+            }
+    }
+   
+
+
+
+.ourlocation__image {
+    min-width: 224px;
+    min-height: 199px;
+    background-image: url(/src/images/modal/poltava-small.jpeg);
+        @media screen and (min-width:768px) {
+            background-image: url(/src/images/modal/poltava-large.jpeg);
+                margin-right: auto;
+                    margin-left: auto;
+                    min-width: 448px;
+        }
+}

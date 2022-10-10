@@ -4,6 +4,7 @@
 @import './base/common.scss';
 @import './base/container.scss';
 @import './base/section.scss';
+@import './base/btn';
 
 @import './components/modal-button.scss';
 @import './components/modal-title.scss';
@@ -18,9 +19,9 @@
 @import './components/second-title.scss';
 @import './components/backdrop.scss';
 
-
 @import './layout/hero-header.scss';
 @import './layout/products.scss';
+@import './layout/products-modal';
 @import './layout/about.scss';
 @import './layout/advantages.scss';
 @import './layout/gallery.scss';

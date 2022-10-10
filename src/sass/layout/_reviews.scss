@@ -64,6 +64,12 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .image-slider__image {
+    width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .image-slider__reviews {
     font-size: 16px;
     padding: 39px 74px;

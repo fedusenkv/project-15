@@ -27,12 +27,12 @@ button {
   cursor: pointer;
 }
 
-.link {
+link {
   text-decoration: none;
   font-style: normal;
 }
 
-.list {
+li {
   list-style: none;
 }
 
@@ -42,5 +42,12 @@ body {
   font-weight: 500;
   color: var(--base-text-color);
   background-image: url(../images/фон.jpg);
+}
+.text-decor {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--base-text-color); 
+  cursor: url(../images/cursor.png), auto;
 
 }

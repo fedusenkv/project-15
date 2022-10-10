@@ -1,19 +1,26 @@
+.contact-section .container {
+    background-color: var(--base-bg-color);
+}
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 48px;
+    margin-top: 393px;
+
 
     @media screen and (min-width:768px) {
-        margin-top: 80px;
+        margin-top: 304px;
+        
 
     }
 
     @media screen and (min-width:1200px) {
-        margin-top: 100px;
+        margin-top: 196px;
     }
 }
-
+.contact__container {
+    margin-top: -345px;
+}
 .contact__item {
     display: flex;
     flex-direction: column;
@@ -83,6 +90,7 @@
     margin-bottom: 20px;
     background: #F8D24E;
     font-size: 12px;
+    transition: all 150ms cubic-bezier(.5, .55, .63, .54);
 
     @media screen and (min-width: 768px) {
         font-size: 16px;
@@ -140,6 +148,11 @@
     font-size: 12px;
     line-height: 18px;
     color: #131313;
+    text-decoration: none;
+    @media screen and (min-width:1200px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .phone-mail__item {
@@ -147,6 +160,8 @@
     font-size: 12px;
     line-height: 18px;
     color: #131313;
+    text-decoration: none;
+    cursor: pointer;
 
     &:hover,
     &:focus {
@@ -161,17 +176,26 @@
 }
 
 .contact__button-item {
-    width: 196px;
     background: #F8D24E;
     border-radius: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 34px;
+    padding-right: 52px;
     border: 2px solid transparent;
     margin-bottom: 16px;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28;
+    position: relative;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms cubic-bezier(.23, .56, .74, .09);
+  
 
+    @media screen and (max-width: 280px) {
+        min-height: 64px;
+        
+    }
     &:last-child {
         margin-bottom: 0px;
         border: 2px solid transparent;
@@ -179,7 +203,8 @@
 
     &:hover {
         background-color: rgba(10, 136, 23, 1);
-        border: 2px solid transparent;
+        border: 8px solid rgba(10, 136, 23,);
+        color: white;
     }
 
     &:focus {
@@ -196,18 +221,29 @@
 }
 
 .contact__button-item-second {
-    width: 196px;
+    position: relative;
     border-radius: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
-    border: 2px solid #F8D24E;
+    padding-left: 34px;
+    padding-right: 52px;
+    outline: 3px solid;
+    outline-color: rgb(248, 210, 78);
+    outline-offset: 0px;
+    border: 0px;
+    transition: all 150ms cubic-bezier(.23, .56, .74, .09);
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28;
-
+    @media screen and (max-width: 280px) {
+        min-height: 64px;
+        
+    }
     &:hover {
-        border: 2px solid rgb(10, 136, 23);
+                outline-color: rgb(10, 138, 23);
+                outline-offset: 8px;
+                color: white;
     }
 
     &:focus {
@@ -225,8 +261,10 @@
 @media screen and (min-width: 768px) {
 
     .contact__container {
+        
         display: flex;
         margin-bottom: 60px;
+        margin-top: -304px;
     }
 
     @media screen and (max-width:1200px) {
@@ -273,9 +311,10 @@
 
 @media screen and (min-width: 1200px) {
 
-    .contact__container,
+    .contact__container
     {
     margin-bottom: 64px;
+    margin-top: -96px;
 }
 
 .contact__item {
@@ -291,5 +330,55 @@
 .phone-mail__item {
     font-size: 16px;
 }
+}
+.contact-button__svg {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+        top: 15px;
+        right: 32px;
+        @media screen and (max-width:280px)  {
+            top: 24px;
+            
+        }
 
+    &:focus {
+
+        fill: rgba(252, 252, 252, 1) ;
+    }
+
+   
+}
+.contact__button-item:focus .contact-button__svg {
+    fill: rgba(252, 252, 252, 1);
+}
+.contact .contact__button {
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-bottom: 0px;
+            flex-direction: row;
+        
+    }
+
+}
+
+    @media screen and (min-width:678px) {
+       .contact .contact__button-item {
+        margin-bottom: 0px;
+        &:first-child {
+            margin-right: 15px;
+        }
+        
+
+    }
+}
+.contact .contact__button-item:hover~.contact__button-item-second .contact-button__svg{
+    transition: all 150ms  cubic-bezier(.5, .55, .63, .54);
+}
+.contact .contact__button-item:hover ~ .contact__button-item-second .contact-button__svg {
+    top: 23px;
+    transition: all 150ms cubic-bezier(.5, .55, .63, .54);
+}
+.contact__button-item-second .contact-button__svg {
+    top: 18px;
 }
