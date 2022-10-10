@@ -23,7 +23,7 @@
         This is enough to choose ice cream and coffee for any mood!
     </p>
 
-<button type="button" class="about__btn main-button-filled">
+<button type="button" class="about__btn main-button-filled" data-modal-open>
 Read more
 </button>
 </div>
@@ -34,10 +34,10 @@ Read more
 
 <!-- modal-window-how-its-made -->
 
-    <div class="backdrop is-hidden" >
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close-btn" >
-                <svg class="modal-close-btn-icon" width="18px" height="18px">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-close-btn-icon" width="10px" height="10px">
                     <use href="./images/icons.svg#icon-close">
                     </use>
                 </svg>
