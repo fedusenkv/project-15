@@ -97,11 +97,11 @@
         </li>
       </ul>
          <div class="contact__button">
-      <button class="contact__button-item" type="button">Our Location  <svg  class="contact-button__svg">
+      <button class="contact__button-item" type="button" data-location-open>Our Location  <svg  class="contact-button__svg">
               <use href="./images/icons.svg#icon-button-right"></use>
             </svg></button>
      
-      <button type="button" class="contact__button-item-second">Franchise <svg  class="contact-button__svg">
+      <button type="button" class="contact__button-item-second" data-franchise-open>Franchise <svg  class="contact-button__svg">
               <use href="./images/icons.svg#icon-button-right"></use>
             </svg></button>
       </div>
@@ -109,3 +109,57 @@
  
     </div>
 </section>
+<div class="container backdrop is-hidden" data-modal-location="">
+<div class="modal-ourlocation">
+  <button class="button-close" data-location-close="">           
+                <svg  class="location-close__svg">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+            </button>
+  <h1 class="modal-ourlocation__title">Our Locations</h1>
+  <span class="ourlocation__image" width="224" height="199"></span>
+ <button type="button" class="contact__button-item">Open map</button>
+</div>
+</div>
+<div class="container backdrop is-hidden" data-franchise-location="">
+  <div class="modal-franchise">
+  <button class="button-close" data-franchise-close="">           
+                <svg  class="location-close__svg">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+            </button>
+  <h1 class="modal-ourlocation__title">Thank you for your interest in owning an Ice Cream shop</h1>
+  <p class="franchise__text">Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this time. Once the application process resumes, we will contact you for further information. Please fill out the contact information below and we will reach out for additional information. We appreciate your patience.</p>
+  <form class="modal-text js-speaker-form">
+                          <div class="modal-text__block">
+                                <label class="modal-text__name" for="name"></label>
+                              
+                                <div class="pos-relative">
+                              <input placeholder="Name" class="modal-text__window" type="text" name="name" id="name" autocomplete="off">
+                                  
+                              </div>
+                          </div>
+                        <div class="modal-text__block">
+                            <label class="modal-text__name" for="phone"></label>
+                            <div class="pos-relative">
+                            <input placeholder="Phone" class="modal-text__window" type="tel" name="phone" id="phone" autocomplete="off">
+                           
+                        </div>    
+                            </div>
+                        <div class="modal-text__block">
+                            <label class="modal-text__name" for="email"></label>
+                            <div class="pos-relative">  
+                              <input placeholder="Email" class="modal-text__window" type="email" name="email" id="email" autocomplete="off">
+                            
+                            </div>
+                          </div>
+                      <div class="modal-text__block modal-text__block-last">
+                        
+                          <label class="modal-text__name" for="comment"></label> 
+                          
+                          <textarea placeholder="Comment" class="text comment-id modal-text__window" name="comment" id="comment" autocomplete="off"></textarea>
+                        </div>           
+            </form>
+ <button type="button" class="contact__button-item">Submit</button>
+</div>
+</div>

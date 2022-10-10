@@ -143,6 +143,11 @@
     font-size: 12px;
     line-height: 18px;
     color: #131313;
+    text-decoration: none;
+    @media screen and (min-width:1200px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .phone-mail__item {
@@ -150,6 +155,8 @@
     font-size: 12px;
     line-height: 18px;
     color: #131313;
+    text-decoration: none;
+    cursor: pointer;
 
     &:hover,
     &:focus {
