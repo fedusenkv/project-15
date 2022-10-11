@@ -363,7 +363,7 @@
 }
 
     @media screen and (min-width:678px) {
-       .contact .contact__button-item {
+    .contact .contact__button-item {
         margin-bottom: 0px;
         &:first-child {
             margin-right: 15px;
@@ -381,4 +381,5 @@
 }
 .contact__button-item-second .contact-button__svg {
   top: 18px;
+}
 }
