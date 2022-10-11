@@ -3,6 +3,22 @@
   <h2 class="main-title about__subject">how it’s made?</h2>
   <div class="container about__container">
     <div class="about__box">
+
+        <!-- <picture class="about__img animate__animated animate__zoomInLeft wow">
+        
+          <source media="(min-width: 1200px)" srcset=" ./images/about/desktop/desktop-cow.png 1x,
+                                ./images/about/mobile/mobile-cow@2x.png 2x " type="image/png" />
+          <source media="(min-width: 768px)" srcset=" ./images/about/tablet/tablet-cow.png 1x,
+                                ./images/about/tablet/tablet-cow@2x.png 2x " type="image/png" />
+          <source media="(max-width: 767px)" srcset=" ./images/about/mobile/mobile-cow.png 1x,
+                                ./images/about/mobile/mobile-cow@2x.png 2x, " type="image/png" />
+        
+        
+          <img class="about__img animate__animated animate__zoomInLeft wow" 
+          src="./images/about/mobile/mobile-cow.png" alt="corova" />
+        
+        </picture> -->
+
       <img
         src="/src/images/about/desktop/desktop-cow.png"
         alt="корова"
@@ -27,9 +43,11 @@
         This is enough to choose ice cream and coffee for any mood!
       </p>
 
-<button type="button" class="btn contact__button-item  main-button-filled" about-data-modal-open>
-Read more
-</button>
+      <button type="button" class="btn contact__button-item  main-button-filled about-button" about-data-modal-open>
+        Read more <svg class="contact-button__svg">
+          <use href="./images/icons.svg#icon-button-right"></use>
+        </svg></button>
+      </button>
 </div>
 </div>
 
@@ -50,7 +68,8 @@ Read more
 <p class="modal-window-how-its-made-title">How it’s made?</p>
 
 
-<iframe class="modal-window-how-its-made-video" src="https://www.youtube.com/embed/qi99fZPH3oY" title="YouTube video player"
+<iframe class="modal-window-how-its-made-video" src="https://www.youtube.com/embed/qi99fZPH3oY"
+        title="YouTube video player"
   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
 
@@ -61,8 +80,10 @@ sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
 
         </div>
     </div>
-      
     </div>
+
+
+
     <!--Алексей Машичев-->
     <include src="./partials/advantages.html"></include>
   </div>
