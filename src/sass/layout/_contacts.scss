@@ -2,82 +2,76 @@
     background-color: var(--base-bg-color);
 }
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 393px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 393px;
 
-    @media screen and (min-width:768px) {
-        margin-top: 304px;
-        
+  @media screen and (min-width: 768px) {
+    margin-top: 304px;
+  }
 
-    }
-
-    @media screen and (min-width:1200px) {
-        margin-top: 196px;
-    }
+  @media screen and (min-width: 1200px) {
+    margin-top: 196px;
+  }
 }
 .contact__container {
-    margin-top: -345px;
+  margin-top: -345px;
 }
 .contact__item {
-    display: flex;
-    flex-direction: column;
-    width: 280px;
-    margin-bottom: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 32px;
-    padding-left: 32px;
-    background: rgba(252, 252, 252, 1);
-    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-    border-radius: 24px;
-
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 32px;
+  padding-left: 32px;
+  background: rgba(252, 252, 252, 1);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
 }
 
 .contact__title {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 186%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
 }
 
 .contact__adress {
-    position: relative;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 183%;
-    letter-spacing: 0.04em;
-    color: rgba(214, 147, 109, 1);
-
+  position: relative;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 183%;
+  letter-spacing: 0.04em;
+  color: rgba(214, 147, 109, 1);
 }
 
 .contact__city-adress {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact__line {
-    display: inline-block;
-    position: absolute;
-    width: 100%;
-    max-width: 216px;
-    content: "";
-    border: 1px solid #E1E1E1;
-    bottom: -24px;
-    left: 0px;
-
-
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  max-width: 216px;
+  content: '';
+  border: 1px solid #e1e1e1;
+  bottom: -24px;
+  left: 0px;
 }
 
 .contact__city {
-    font-weight: 500;
-    font-size: 12px;
+  font-weight: 500;
+  font-size: 12px;
 
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    margin-bottom: 8px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
 }
 
 .contact__name {
@@ -112,38 +106,36 @@
 }
 
 .contact__time {
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 186%;
-    color: rgba(171, 171, 171, 1);
-
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: rgba(171, 171, 171, 1);
 }
 
 .contact__time:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-
 .contact__block {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    &:first-child {
-        margin-bottom: 8px;
-    }
+  &:first-child {
+    margin-bottom: 8px;
+  }
 }
 
 .contact__opening-hours {
-    position: relative;
-    margin-top: 48px;
-    display: flex;
-    flex-direction: column;
-
+  position: relative;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact__mail-phone {
-    margin-top: 48px;
+
+ margin-top: 48px;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
@@ -170,18 +162,30 @@
 }
 
 .contact__button {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .contact__button-item {
-    background: #F8D24E;
-    border-radius: 10px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 34px;
-    padding-right: 52px;
+  // background: #F8D24E;
+  // border-radius: 10px;
+  // padding-top: 12px;
+  // padding-bottom: 12px;
+  // padding-left: 34px;
+  // padding-right: 52px;
+  // border: 2px solid transparent;
+  // font-weight: 600;
+  // font-size: 14px;
+  line-height: 1.28;
+  margin-bottom: 16px;
+  padding: 12px 52px 12px 34px;
+  position: relative;
+
+  @media screen and (max-width: 280px) {
+    min-height: 64px;
+  }
+  &:last-child {
+    margin-bottom: 0px;
     border: 2px solid transparent;
     margin-bottom: 16px;
     font-weight: 600;
@@ -207,17 +211,21 @@
         color: white;
     }
 
-    &:focus {
+  &:hover {
+    background-color: rgba(10, 136, 23, 1);
+    border: 2px solid transparent;
+  }
 
-        color: rgba(252, 252, 252, 1);
-        background-color: rgba(10, 136, 23, 1);
-        border: 2px solid transparent;
-    }
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(10, 136, 23, 1);
+    border: 2px solid transparent;
+  }
 
-    &:disabled {
-        background-color: rgba(171, 171, 171, 1);
-        border: 2px solid transparent;
-    }
+  &:disabled {
+    background-color: rgba(171, 171, 171, 1);
+    border: 2px solid transparent;
+  }
 }
 
 .contact__button-item-second {
@@ -259,97 +267,88 @@
 // адаптивка
 
 @media screen and (min-width: 768px) {
+  .contact__container {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: -304px;
+  }
 
-    .contact__container {
-        
-        display: flex;
-        margin-bottom: 60px;
-        margin-top: -304px;
-    }
-
-    @media screen and (max-width:1200px) {
-        .contact__city {
-            margin-bottom: 12px;
-        }
-    }
-
-    .contact__item {
-        width: 224px;
-        margin-bottom: 0px;
-        margin-right: 16px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-
-    .contact__item:last-child {
-        margin-right: 0px;
-    }
-
-    .contact__opening-hours {
-        margin-top: 64px;
-    }
-
-    .contact__line {
-        bottom: -32px;
-    }
-
-    .contact__mail-phone {
-        margin-top: 64px;
-    }
-
-    // font size
-    .contact__adress,
-    .contact__time,
-    .contact__title,
-    .phone-mail__item,
+  @media screen and (max-width: 1200px) {
     .contact__city {
-        font-size: 14px;
+      margin-bottom: 12px;
     }
+  }
 
+  .contact__item {
+    width: 224px;
+    margin-bottom: 0px;
+    margin-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 
+  .contact__item:last-child {
+    margin-right: 0px;
+  }
+
+  .contact__opening-hours {
+    margin-top: 64px;
+  }
+
+  .contact__line {
+    bottom: -32px;
+  }
+
+  .contact__mail-phone {
+    margin-top: 64px;
+  }
+
+  // font size
+  .contact__adress,
+  .contact__time,
+  .contact__title,
+  .phone-mail__item,
+  .contact__city {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-    .contact__container
-    {
+  .contact__container {
     margin-bottom: 64px;
     margin-top: -96px;
-}
+  }
 
-.contact__item {
+  .contact__item {
     padding-left: 40px;
     width: 368px;
-}
+  }
 
-// font size 
-.contact__city,
-.contact__adress,
-.contact__title,
-.contact__time,
-.phone-mail__item {
+  // font size
+  .contact__city,
+  .contact__adress,
+  .contact__title,
+  .contact__time,
+  .phone-mail__item {
     font-size: 16px;
-}
+  }
 }
 .contact-button__svg {
-    width: 12px;
-    height: 12px;
-    position: absolute;
-        top: 15px;
-        right: 32px;
-        @media screen and (max-width:280px)  {
-            top: 24px;
-            
-        }
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 15px;
+  right: 32px;
+  @media screen and (max-width: 280px) {
+    top: 24px;
+  }
 
-    &:focus {
-
-        fill: rgba(252, 252, 252, 1) ;
-    }
-
-   
+  &:focus {
+    fill: rgba(252, 252, 252, 1);
+  }
 }
 .contact__button-item:focus .contact-button__svg {
+
     fill: rgba(252, 252, 252, 1);
 }
 .contact .contact__button {
