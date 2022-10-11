@@ -1,4 +1,5 @@
 .footer_bg {
+
     background-color: var(--base-bg-color);
     max-width: 1200px;
     margin: 0 auto;
@@ -45,14 +46,15 @@
 }
 
 .footer_social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: var(--base-bg-color);
-    border-radius: 50%;
-    background-color: #F8D24E;
-    border-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--base-bg-color);
+  border-radius: 50%;
+  background-color: #f8d24e;
+  border-color: tomato;
 }
+
 
 .footer_social-link:focus {
     fill: #FCFCFC;
@@ -191,3 +193,4 @@
         width: 1167px;
     }
 }
+
