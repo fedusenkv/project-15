@@ -1,7 +1,25 @@
+.gallery {
+  margin-left: auto;
+  max-width: 1200px;
+  margin-right: auto;
+  background: linear-gradient(var(--base-bg-color) 24px, transparent 0);
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 55px;
+
+    background: linear-gradient(var(--base-bg-color) 164px, transparent 0);
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 55px;
+    background: linear-gradient(var(--base-bg-color) 94px, transparent 0);
+  }
+}
+
 .gallery__foto {
   display: block;
   margin: 0 auto;
-  margin-top: -24px;
+
   margin-bottom: 75px;
   /* outline: 2px solid tomato; */
   outline: 4px color #212121;
@@ -11,14 +29,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 22px 22px 22px 22px;
 
-    @media screen and (min-width:768px) {
-            margin-top: -164px;
-            margin-bottom: 55px;
-        }
-    
-        @media screen and (min-width:1200px) {
-        margin-top: -94px;
-        margin-bottom: 55px;
-        }
-}
+  @media screen and (min-width: 768px) {
+    margin-bottom: 55px;
+  }
 
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 55px;
+  }
+}
