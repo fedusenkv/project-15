@@ -42,9 +42,9 @@ body {
   font-weight: 500;
   color: var(--base-text-color);
   background-image: url(../images/фон.jpg);
-    background-repeat: repeat-y;
-      background-position: center;
-      background-size: 1200px;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 1200px;
  cursor: url(../images/cursor.png), auto;
 }
 .text-decor {
@@ -52,6 +52,4 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: var(--base-text-color); 
-  
-
 }
