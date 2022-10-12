@@ -37,43 +37,43 @@ html {
     box-sizing: border-box;
 }
 
-/*reset*/
+// /*reset*/
 
-/* Стили для обнуления верхних отступов у элементов */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-}
+// //* Стили для обнуления верхних отступов у элементов */
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p {
+//     margin-top: 0;
+// }
 
-/* Класс для обнуления базовых свойств у списков (ul) */
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
+// /* Класс для обнуления базовых свойств у списков (ul) */
+// .list {
+//     list-style: none;
+//     padding-left: 0;
+//     margin: 0;
+// }
 
-/* Класс для обнуления базовых свойств у ссылок */
-.link {
-    text-decoration: none;
-    color: inherit;
-}
+// /* Класс для обнуления базовых свойств у ссылок */
+// .link {
+//     text-decoration: none;
+//     color: inherit;
+// }
 
-/* Свойства для корректного отображения картинок */
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+// /* Свойства для корректного отображения картинок */
+// //img {
+//     display: block;
+//     max-width: 100%;
+//     height: auto;
+// //}
 
-/* Свойства для обнуления курсива у address */
-address {
-    font-style: normal;
-}
+// /* Свойства для обнуления курсива у address */
+// //address {
+//     font-style: normal;
+// //}
 
 /*navigation*/
 .menu-button {
@@ -147,15 +147,15 @@ address {
 /*modal_form*/
 
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+// img {
+//     display: block;
+//     max-width: 100%;
+//     height: auto;
+// }
 
-a {
-    text-decoration: none;
-}
+// a {
+//     text-decoration: none;
+// }
 
 .backdrop-header {
     background: rgba(47, 48, 58, 0.4);
@@ -612,7 +612,6 @@ a {
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         width: 768px;
-        display: flex;
         justify-content: center;
         
         //position: relative;
