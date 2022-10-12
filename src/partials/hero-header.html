@@ -1,0 +1,315 @@
+<!--HEADER-->
+
+<div id="home" class="page-header">
+  <div class="container">
+    <nav class="nav">
+      <img
+        src="/src/images/hero-header/desktop/desktop-logo.png"
+        srcset="
+          /src/images/hero-header/desktop/desktop-logo.png    1x,
+          /src/images/hero-header/desktop/desktop-logo@2x.png 2x
+        "
+        width="37px"
+        height="41px"
+        alt="logo"
+      />
+      <button
+        type="button"
+        class="menu-button"
+        aria-controls="menu-container"
+        aria-expanded="false"
+        data-menu-button
+      >
+        <svg width="20px" height="20px" aria-label="Перемикач моб меню">
+          <use
+            class="icon__menu-mob"
+            href="/src/images/icons.svg#icon-Burger"
+          ></use>
+          <use
+            class="icon__cross-mob"
+            href="/src/images/icons.svg#icon-close"
+          ></use>
+        </svg>
+      </button>
+      <div class="menu-container" id="menu-container" data-menu>
+        <nav>
+          <ul class="header-nav">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#home">Home</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#about">How it's made?</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#prodacts">Our prodacts</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="header-button" type="submit" data-modal-open>
+          <ul class="header-button--form">
+            <li>
+              <p class="">Buy now</p>
+            </li>
+
+            <li>
+              <!--  знак ">" в кнопці -->
+              <svg class="header-button__icon">
+                <!--<use href="/src/images/svg/sprite5.svg#buy_now_v"></use>-->
+              </svg>
+            </li>
+          </ul>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<!--HERO-->
+<section class="hero">
+  <div class="container-hero">
+    <h1 class="hero__title">ice cream<br />made with</h1>
+    <h1 class="hero__title-passion">passion</h1>
+
+    <div class="hero-buttons">
+      <button class="hero-button1" type="button" data-modal-open>
+        <p class="hero-buttons--margin">Products</p>
+      </button>
+      <button class="hero-button2" type="button" data-modal-open>
+        <p class="hero-buttons--margin">How it's made?</p>
+      </button>
+    </div>
+
+    <!--img-points-->
+    <img
+      class="hero-img-points"
+      src="/src/images/hero-header/desktop/desktop-точки.png"
+      srcset="/src/images/hero-header/desktop/desktop-точки.png x1, /src/images/hero-header/desktop/desktop-точки@2x.png x2"
+      alt="points"
+    />
+
+    <img
+      class="hero-img-points-t"
+      src="/src/images/hero-header/tablet/tablet-точки.png"
+      srcset="/src/images/hero-header/tablet/tablet-точки.png x1"
+      alt="points-t"
+    />
+
+    <img
+      class="hero-img-points-m"
+      src="/src/images/hero-header/mobile/mobile-точки.png"
+      srcset="/src/images/hero-header/mobile/mobile-точки.png x1"
+      alt="points-m"
+    />
+
+    <!--img-many ice-->
+    <img
+      class="hero-img-ice"
+      src="/src/images/hero-header/desktop/desktop-много мороженок.png"
+      alt="ice"
+    />
+
+    <img
+      class="hero-img-ice-t"
+      src="/src/images/hero-header/tablet/tablet-много мороженок.png"
+      alt="ice"
+    />
+
+    <!--img-ice-->
+
+    <img
+      class="hero-img-icethree"
+      src="/src/images/hero-header/desktop/desktop-ice-cream.png"
+      alt="альтернативний текст"
+    />
+
+    <img
+      class="hero-img-icethree-t"
+      src="/src/images/hero-header/tablet/tablet-ice-cream.png"
+      alt="альтернативний текст"
+    />
+
+    <img
+      class="hero-img-icethree-m"
+      src="/src/images/hero-header/mobile/mobile-ice-cream.png"
+      width="157"
+      height="207"
+      alt="альтернативний текст"
+    />
+
+    <!--<img
+      class="hero-img-iceshadow"
+      src="/src/images/hero-header/desktop/desktop-много мороженок.png"
+      alt="альтернативний текст"
+    />
+
+    <img
+      class="hero-img-icesmile"
+      src="/src/images/hero-header/desktop/desktop-много мороженок.png"
+      alt="альтернативний текст"
+    />-->
+
+    <p class="header-lorem">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et
+    </p>
+
+    <!--<img
+      class="hero-img-icearrow"
+      src="./src/images/hero-header/Arrow 4.png"
+      alt="strilra"
+    />-->
+
+    <ul class="hero-number">
+      <li>
+        <h2 class="hero-number__item">16</h2>
+      </li>
+      <li>
+        <h3 class="hero-number__item-world">cafes</h3>
+      </li>
+      <li>
+        <h2 class="hero-number__item">23</h2>
+      </li>
+      <li>
+        <h3 class="hero-number__item-world">food trucks</h3>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!--menu-->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button
+      class="modal__close-button"
+      type="button"
+      class="modal__close-button--icons"
+      data-modal-close
+    >
+      <!--<svg class="modal__close-button--icons-size">
+        <use
+          href="/src/images/svg/sprite5.svg#icon-close-black"
+          width="17"
+          height="17"
+        ></use>
+      </svg>-->
+    </button>
+
+    <!--modal window-->
+    <div width="568">
+      <h2 class="form__title">Buy now</h2>
+      <form class="form" name="main-form" autocomplete="on" novalidate>
+        <div class="form__radio-button">
+          <ul class="form__radio-list">
+            <li class="form__radio-item">
+              <div class="form__radio-item1">
+                <div class="form__radio-item11"></div>
+                <img
+                  class="form-img1"
+                  src="/src/images/hero-header/header-modal-ice.png"
+                  srcset="
+                    /src/images/hero-header/header-modal-ice.png    1x,
+                    /src/images/hero-header/header-modal-ice@2x.png 2x
+                  "
+                  alt="ice"
+                />
+                <label class="form-label">
+                  <input type="radio" name="ice cream" value="red" checked />
+                </label>
+                <span class="form-text">ice cream</span>
+              </div>
+            </li>
+
+            <li class="form__radio-item">
+              <div class="form__radio-item2">
+                <div class="form__radio-item22"></div>
+                <img
+                  class="form-img2"
+                  src="/src/images/hero-header/header-modal-coffee.png"
+                  srcset="
+                    /src/images/hero-header/header-modal-coffee.png    1x,
+                    /src/images/hero-header/header-modal-coffee@2x.png 2x
+                  "
+                  alt="ice"
+                />
+                alt="альтернативний текст">
+                <label class="form-label">
+                  <input type="radio" name="ice cream" value="red" checked />
+                </label>
+                <span class="form-text">ice coffee</span>
+              </div>
+            </li>
+
+            <li class="form__radio-item">
+              <div class="form__radio-item3">
+                <div class="form__radio-item33"></div>
+                <img
+                  class="form-img3"
+                  src="/src/images/hero-header/header-modal-milkshake.png"
+                  srcset="
+                    /src/images/hero-header/header-modal-milkshake.png    1x,
+                    /src/images/hero-header/header-modal-milkshake@2x.png 2x
+                  "
+                  alt="альтернативний текст"
+                />
+                <label class="form-label">
+                  <input type="radio" name="ice cream" value="red" checked />
+                </label>
+                <span class="form-text">milkshake</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <label class="form__field-label" for="user-name">
+          <span class="form__field-inner">
+            <input
+              class="form__field-input"
+              placeholder="Name"
+              id="user-name"
+              type="text"
+              name="user-name"
+              required
+              autofocus
+              minlength="5"
+            />
+          </span>
+        </label>
+        <label class="form__field-label" for="user-tel">
+          <span class="form__field-inner">
+            <input
+              class="form__field-input"
+              placeholder="Phone"
+              id="user-tel"
+              type="text"
+              name="user-tel"
+              required
+              required
+              min="10"
+              max="13"
+            />
+          </span>
+        </label>
+        <label class="form__field--label-com" for="user-com">
+          <textarea
+            id="user-com"
+            class="form__field-input--com"
+            resize="none"
+            name="user-com"
+            placeholder="Coment"
+          ></textarea>
+        </label>
+
+        <button class="form__field--button" type="submit">
+          <p class="form__field--button-title">Submst</p>
+        </button>
+      </form>
+    </div>
+
+    <!--<script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>-->
+  </div>
+</div>
