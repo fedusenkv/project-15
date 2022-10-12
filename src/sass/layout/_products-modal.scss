@@ -3,18 +3,22 @@ li {
   list-style: none;
 }
 
+.modal-container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
 .modal-prod {
   width: 280px;
   height: 990px;
   border: 2px solid var(--accent-color);
   border-radius: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: var(--second-bg-color);
   position: relative;
   padding: 28px 20px 32px;
+
   .bgr-img1 {
     background: linear-gradient(
         0deg,
@@ -97,6 +101,7 @@ li {
   .bord2 {
     border: 2px solid var(--bg-product3);
   }
+
   @media screen and (min-width: 768px) {
     margin-bottom: 39px;
   }
@@ -112,6 +117,7 @@ li {
   border: 2px solid var(--base-bg-color);
   border-radius: 40px;
   padding-bottom: 14px;
+
   .bgr-color1 {
     border: 2px solid var(--accent-color);
     background-color: var(--accent-color);
@@ -176,6 +182,13 @@ li {
   border-radius: 10px;
   padding: 11px;
   outline: var(--bg-poduct-moda);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 768px) {
+    &:hover,
+    :focus {
+      scale: 103%;
+    }
+  }
 }
 .form__message {
   width: 100%;
@@ -186,6 +199,13 @@ li {
   resize: none;
   padding: 11px;
   outline: var(--bg-poduct-moda);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 768px) {
+    &:hover,
+    :focus {
+      scale: 103%;
+    }
+  }
 }
 .form__list:not(:last-child) {
   margin-bottom: 16px;

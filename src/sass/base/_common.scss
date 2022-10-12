@@ -48,7 +48,9 @@ body {
   font-family: var(--secondary-font);
   font-size: 14px;
   font-weight: 500;
-  color: var(--base-text-color); 
+  color: var(--base-text-color);
   cursor: url(../images/cursor.png), auto;
-
+}
+.no-scroll {
+  overflow: hidden;
 }
