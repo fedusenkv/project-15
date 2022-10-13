@@ -1,6 +1,5 @@
 .gallery {
     margin-left: auto;
-    // max-width: 1200px;
     margin-right: auto;
     background: linear-gradient(var(--base-bg-color) 24px, transparent 0);
 
@@ -17,35 +16,27 @@
 }
 
 .gallery__foto {
-    // display: block;
-    // margin: 0 auto;
-
     margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
     width: 279px;
-        height: 130px;
-        overflow: hidden;
-        padding: 0;
-        border-radius: 7.41px;
+    height: 130px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 7.41px;
     margin-bottom: 75px;
     /* outline: 2px solid tomato; */
-    outline: 4px color #212121;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 22px 22px 22px 22px;
 
     @media screen and (min-width: 768px) {
         width: 704px;
-            height: 327px;
+        height: 327px;
 
         margin-bottom: 55px;
     }
 
     @media screen and (min-width: 1200px) {
-            width: 1013px;
-                height: 422px;
+        width: 1013px;
+        height: 422px;
         margin-bottom: 55px;
     }
 }
@@ -56,18 +47,25 @@
     height: 130px;
     clear: both;
     position: relative;
-animation: sliderAnimateMobile 50s infinite ease-in-out;
-@media screen and (min-width: 768px) {}
+    animation: sliderAnimateMobile 50s infinite ease-in-out;
+    outline: 4px color #212121;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 22px 22px 22px 22px;
+
+    @media screen and (min-width: 768px) {}
         width: 704px;
         height: 327px;
- animation: sliderAnimateTablet 50s infinite ease-in-out;
+        animation: sliderAnimateTablet 50s infinite ease-in-out;
 
-  @media screen and (min-width: 1200px){
-    width: 1013px;
-    height: 422px;
- animation: sliderAnimateDesktop 50s infinite ease-in-out;
-  }
-   
+    @media screen and (min-width: 1200px) {
+        width: 1013px;
+        height: 422px;
+        animation: sliderAnimateDesktop 50s infinite ease-in-out;
+    }
+
 }
 
 .gallery__picture {
@@ -79,6 +77,8 @@ animation: sliderAnimateMobile 50s infinite ease-in-out;
 
 .gallery__img {
     flex-basis: 100%;
+    width: 1013px;
+    height: 422px;
 }
 
 @keyframes sliderAnimateMobile {
