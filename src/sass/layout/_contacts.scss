@@ -199,14 +199,12 @@
 
   &:hover {
     background-color: rgba(10, 136, 23, 1);
-    border: 8px solid rgba(10, 136, 23);
     color: white;
   }
 
   &:focus {
     color: rgba(252, 252, 252, 1);
     background-color: rgba(10, 136, 23, 1);
-    border: 2px solid transparent;
   }
 
   &:disabled {
@@ -236,7 +234,6 @@
   }
   &:hover {
     outline-color: rgb(10, 138, 23);
-    outline-offset: 8px;
     color: white;
   }
 
