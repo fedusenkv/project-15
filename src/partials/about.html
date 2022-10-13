@@ -4,7 +4,7 @@
   <div class="container about__container">
     <div class="about__box">
 
-        <picture">
+        <picture>
         
           <source media="(min-width: 1200px)" srcset=" /src/images/about/desktop/desktop-cow.png 1x,
                                 /src/images/about/desktop/desktop-cow@2x.png 2x " type="image/png" />
@@ -18,7 +18,6 @@
           src="/src/images/about/mobile/mobile-cow.png" alt="corova" />
         
         </picture>
-
 
     </div>
     <div class="about__holder">
@@ -48,38 +47,25 @@
 
 <!-- modal-window-how-its-made -->
 
-
-     <div class="backdrop is-hidden" about-data-modal>
-        <div class="modal">
-            <button type="button" class="modal-close-btn" about-data-modal-close>
-                <svg class="modal-close-btn-icon" width="22px" height="22px">
-                    <use href="./images/icons.svg#icon-close">
-                    </use>
-                </svg>
-            </button>
-
-
-
-<p class="modal-window-how-its-made-title">How it’s made?</p>
-
-
-<iframe class="modal-window-how-its-made-video" src="https://www.youtube.com/embed/qi99fZPH3oY"
+<div class="backdrop is-hidden" about-data-modal>
+  <div class="modal-about">
+    <button type="button" class="modal-close-btn" about-data-modal-close>
+        <svg class="modal-close-btn-icon" width="22px" height="22px">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <p class="modal-window-how-its-made-title">How it’s made?</p>
+    <iframe class="modal-window-how-its-made-video" src="https://www.youtube.com/embed/qi99fZPH3oY"
         title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-
-<p class="modal-window-how-its-made-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et Lorem ipsum dolor
-sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-
-
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <p class="modal-window-how-its-made-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
         </div>
     </div>
     </div>
-
-
-
-    <!--Алексей Машичев-->
-    <include src="./partials/advantages.html"></include>
   </div>
+  
+        <!--Алексей Машичев-->
+        <include src="./partials/advantages.html"></include>
 </section>
