@@ -1,304 +1,302 @@
 .gallery {
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(var(--base-bg-color) 24px, transparent 0);
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(var(--base-bg-color) 24px, transparent 0);
 
-    @media screen and (min-width: 768px) {
-        margin-bottom: 55px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 55px;
 
-        background: linear-gradient(var(--base-bg-color) 164px, transparent 0);
-    }
+    background: linear-gradient(var(--base-bg-color) 164px, transparent 0);
+  }
 
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 55px;
-        background: linear-gradient(var(--base-bg-color) 94px, transparent 0);
-    }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 55px;
+    background: linear-gradient(var(--base-bg-color) 94px, transparent 0);
+  }
 }
 
 .gallery__foto {
-    margin-left: auto;
-    margin-right: auto;
-    width: 279px;
-    height: 130px;
-    overflow: hidden;
-    padding: 0;
-    border-radius: 7.41px;
-    margin-bottom: 75px;
-    /* outline: 2px solid tomato; */
-    border-radius: 22px 22px 22px 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 279px;
+  height: 130px;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 7.41px;
+  margin-bottom: 75px;
+  //   outline: 2px solid tomato;
 
-    @media screen and (min-width: 768px) {
-        width: 704px;
-        height: 327px;
+  @media screen and (min-width: 768px) {
+    width: 704px;
+    height: 327px;
+    border-radius: 18px;
+    margin-bottom: 55px;
+  }
 
-        margin-bottom: 55px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 1013px;
-        height: 422px;
-        margin-bottom: 55px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: 1013px;
+    height: 422px;
+    margin-bottom: 55px;
+    border-radius: 22px;
+  }
 }
 
 .gallery__slider {
-    display: flex;
-    width: 279px;
-    height: 130px;
-    clear: both;
-    position: relative;
-    animation: sliderAnimateMobile 50s infinite ease-in-out;
-    outline: 4px color #212121;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 22px 22px 22px 22px;
+  display: flex;
 
-    @media screen and (min-width: 768px) {}
-        width: 704px;
-        height: 327px;
-        animation: sliderAnimateTablet 50s infinite ease-in-out;
+  clear: both;
+  position: relative;
+  animation: sliderAnimateMobile 50s infinite ease-in-out;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 
-    @media screen and (min-width: 1200px) {
-        width: 1013px;
-        height: 422px;
-        animation: sliderAnimateDesktop 50s infinite ease-in-out;
-    }
+  @media screen and (min-width: 768px) {
+    animation: sliderAnimateTablet 50s infinite ease-in-out;
+  }
 
+  @media screen and (min-width: 1200px) {
+    animation: sliderAnimateDesktop 50s infinite ease-in-out;
+  }
 }
 
 .gallery__picture {
-    display: flex;
-    flex-basis: 20%;
-    position: relative;
-    float: left;
+  display: flex;
+  flex-basis: 20%;
+  position: relative;
+  float: left;
 }
 
 .gallery__img {
-    flex-basis: 100%;
+  flex-basis: 100%;
+  width: 279px;
+  @media screen and (min-width: 768px) {
+    width: 704px;
+  }
+  @media screen and (min-width: 1200px) {
     width: 1013px;
-    height: 422px;
+  }
 }
 
 @keyframes sliderAnimateMobile {
-    0% {
-        left: 0;
-    }
+  0% {
+    left: 0;
+  }
 
-    8% {
-        left: 0;
-    }
+  8% {
+    left: 0;
+  }
 
-    12% {
-        left: -279px;
-    }
+  12% {
+    left: -279px;
+  }
 
-    20% {
-        left: -279px;
-    }
+  20% {
+    left: -279px;
+  }
 
-    24% {
-        left: -558px;
-    }
+  24% {
+    left: -558px;
+  }
 
-    32% {
-        left: -558px;
-    }
+  32% {
+    left: -558px;
+  }
 
-    36% {
-        left: -837px;
-    }
+  36% {
+    left: -837px;
+  }
 
-    44% {
-        left: -837px;
-    }
+  44% {
+    left: -837px;
+  }
 
-    48% {
-        left: -1116px;
-    }
+  48% {
+    left: -1116px;
+  }
 
-    56% {
-        left: -1116px;
-    }
+  56% {
+    left: -1116px;
+  }
 
-    60% {
-        left: -837px;
-    }
+  60% {
+    left: -837px;
+  }
 
-    68% {
-        left: -837px;
-    }
+  68% {
+    left: -837px;
+  }
 
-    72% {
-        left: -558px;
-    }
+  72% {
+    left: -558px;
+  }
 
-    80% {
-        left: -558px;
-    }
+  80% {
+    left: -558px;
+  }
 
-    84% {
-        left: -279px;
-    }
+  84% {
+    left: -279px;
+  }
 
-    92% {
-        left: -279px;
-    }
+  92% {
+    left: -279px;
+  }
 
-    96% {
-        left: 0;
-    }
+  96% {
+    left: 0;
+  }
 
-    100% {
-        left: 0;
-    }
+  100% {
+    left: 0;
+  }
 }
 
 @keyframes sliderAnimateTablet {
-    0% {
-        left: 0;
-    }
+  0% {
+    left: 0;
+  }
 
-    8% {
-        left: 0;
-    }
+  8% {
+    left: 0;
+  }
 
-    12% {
-        left: -704px;
-    }
+  12% {
+    left: -704px;
+  }
 
-    20% {
-        left: -704px;
-    }
+  20% {
+    left: -704px;
+  }
 
-    24% {
-        left: -1408px;
-    }
+  24% {
+    left: -1408px;
+  }
 
-    32% {
-        left: -1408px;
-    }
+  32% {
+    left: -1408px;
+  }
 
-    36% {
-        left: -2112px;
-    }
+  36% {
+    left: -2112px;
+  }
 
-    44% {
-        left: -2112px;
-    }
+  44% {
+    left: -2112px;
+  }
 
-    48% {
-        left: -2816px;
-    }
+  48% {
+    left: -2816px;
+  }
 
-    56% {
-        left: -2816px;
-    }
+  56% {
+    left: -2816px;
+  }
 
-    60% {
-        left: -2112px;
-    }
+  60% {
+    left: -2112px;
+  }
 
-    68% {
-        left: -2112px;
-    }
+  68% {
+    left: -2112px;
+  }
 
-    72% {
-        left: -1408px;
-    }
+  72% {
+    left: -1408px;
+  }
 
-    80% {
-        left: -1408px;
-    }
+  80% {
+    left: -1408px;
+  }
 
-    84% {
-        left: -704px;
-    }
+  84% {
+    left: -704px;
+  }
 
-    92% {
-        left: -704px;
-    }
+  92% {
+    left: -704px;
+  }
 
-    96% {
-        left: 0;
-    }
+  96% {
+    left: 0;
+  }
 
-    100% {
-        left: 0;
-    }
+  100% {
+    left: 0;
+  }
 }
 
 @keyframes sliderAnimateDesktop {
-    0% {
-        left: 0;
-    }
+  0% {
+    left: 0;
+  }
 
-    8% {
-        left: 0;
-    }
+  8% {
+    left: 0;
+  }
 
-    12% {
-        left: -1013px;
-    }
+  12% {
+    left: -1013px;
+  }
 
-    20% {
-        left: -1013px;
-    }
+  20% {
+    left: -1013px;
+  }
 
-    24% {
-        left: -2026px;
-    }
+  24% {
+    left: -2026px;
+  }
 
-    32% {
-        left: -2026px;
-    }
+  32% {
+    left: -2026px;
+  }
 
-    36% {
-        left: -3039px;
-    }
+  36% {
+    left: -3039px;
+  }
 
-    44% {
-        left: -3039px;
-    }
+  44% {
+    left: -3039px;
+  }
 
-    48% {
-        left: -4052px;
-    }
+  48% {
+    left: -4052px;
+  }
 
-    56% {
-        left: -4052px;
-    }
+  56% {
+    left: -4052px;
+  }
 
-    60% {
-        left: -3039px;
-    }
+  60% {
+    left: -3039px;
+  }
 
-    68% {
-        left: -3039px;
-    }
+  68% {
+    left: -3039px;
+  }
 
-    72% {
-        left: -2026px;
-    }
+  72% {
+    left: -2020px;
+  }
 
-    80% {
-        left: -2026px;
-    }
+  80% {
+    left: -2020px;
+  }
 
-    84% {
-        left: -2026px;
-    }
+  84% {
+    left: -2020px;
+  }
 
-    92% {
-        left: -1013px;
-    }
+  92% {
+    left: -1010px;
+  }
 
-    96% {
-        left: -1013px;
-    }
+  96% {
+    left: -1010px;
+  }
 
-    100% {
-        left: 0;
-    }
+  100% {
+    left: 0;
+  }
 }
