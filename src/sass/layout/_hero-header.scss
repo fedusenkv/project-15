@@ -604,31 +604,31 @@ a {
   margin-left: auto;
 }
 
-.container {
-  position: relative;
-  margin: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 1200px;
-  padding-top: 18px;
-  padding-bottom: 0px;
+// .container {
+//   position: relative;
+//   margin: auto;
+//   padding-left: 16px;
+//   padding-right: 16px;
+//   width: 1200px;
+//   padding-top: 18px;
+//   padding-bottom: 0px;
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 768px;
-    justify-content: center;
+//   @media screen and (min-width: 768px) and (max-width: 1199px) {
+//     width: 768px;
+//     justify-content: center;
 
-    //position: relative;
-  }
+//     //position: relative;
+//   }
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+//   @media screen and (max-width: 768px) {
+//     width: 100%;
+//     padding-left: 32px;
+//     padding-right: 32px;
+//   }
 
-  @media screen and (min-width: 1200px) {
-  }
-}
+//   @media screen and (min-width: 1200px) {
+//   }
+// }
 
 .nav-mob {
   display: flex;
@@ -924,6 +924,7 @@ a {
   position: absolute;
   top: 203px;
   left: 1px;
+  pointer-events: none;
 
   @media screen and (max-width: 1199px) {
     display: none;
@@ -934,6 +935,7 @@ a {
   position: absolute;
   bottom: 0px;
   left: 0px;
+  pointer-events: none;
 
   @media screen and (max-width: 767px) {
     display: none;
@@ -948,6 +950,7 @@ a {
   position: absolute;
   bottom: 0px;
   left: 0px;
+  pointer-events: none;
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -959,6 +962,7 @@ a {
   bottom: 0;
   left: 551px;
   z-index: 1;
+  pointer-events: none;
 
   @media screen and (max-width: 1199px) {
     display: none;
@@ -969,6 +973,7 @@ a {
   position: absolute;
   bottom: 0;
   left: 370px;
+  pointer-events: none;
 
   @media screen and (max-width: 767px) {
     display: none;
