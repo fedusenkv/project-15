@@ -9,11 +9,15 @@
         padding: 28px;
         left: 50%;
         top: 50%;
+        border: 2px solid #F8D24E;
+            border-radius: 10px;
         transform: translate(-50%, -50%) scale(1);
         @media screen and (min-width:768px) {
             min-width: 568px;
             min-height: 458px;
             padding:20px;
+            display: flex;
+            align-items: center;
             
         }
      
@@ -96,4 +100,12 @@
                     margin-left: auto;
                     min-width: 448px;
         }
+}
+
+.map {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+
 }

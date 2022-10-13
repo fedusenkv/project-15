@@ -17,10 +17,12 @@
         type="button"
         class="menu-button"
         aria-controls="menu-container"
+        aria-controls="menu-button"
+        aria-controls="button-clone"
         aria-expanded="false"
         data-menu-button
       >
-        <svg width="20px" height="20px" aria-label="Перемикач моб меню">
+        <svg width="45px" height="45px" aria-label="Перемикач моб меню">
           <use
             class="icon__menu-mob"
             href="/src/images/icons.svg#icon-Burger"
@@ -49,16 +51,20 @@
           </ul>
         </nav>
 
-        <button class="header-button" type="submit" data-modal-open>
+        <button
+          class="header-button"
+          type="submit"
+          data-menu-button
+          data-modal-open
+        >
           <ul class="header-button--form">
             <li>
               <p class="">Buy now</p>
             </li>
 
             <li>
-              <!--  знак ">" в кнопці -->
               <svg class="header-button__icon">
-                <!--<use href="/src/images/svg/sprite5.svg#buy_now_v"></use>-->
+                <use href="/src/images/svg/sprite5.svg#buy_now_v"></use>
               </svg>
             </li>
           </ul>
@@ -140,28 +146,14 @@
       alt="альтернативний текст"
     />
 
-    <!--<img
-      class="hero-img-iceshadow"
-      src="/src/images/hero-header/desktop/desktop-много мороженок.png"
-      alt="альтернативний текст"
-    />
-
-    <img
-      class="hero-img-icesmile"
-      src="/src/images/hero-header/desktop/desktop-много мороженок.png"
-      alt="альтернативний текст"
-    />-->
-
     <p class="header-lorem">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et
     </p>
 
-    <!--<img
-      class="hero-img-icearrow"
-      src="./src/images/hero-header/Arrow 4.png"
-      alt="strilra"
-    />-->
+    <svg class="hero-img-icearrow">
+      <use href="/src/images/icons.svg#icon-big-arrow"></use>
+    </svg>
 
     <ul class="hero-number">
       <li>
@@ -189,13 +181,13 @@
       class="modal__close-button--icons"
       data-modal-close
     >
-      <!--<svg class="modal__close-button--icons-size">
+      <svg class="modal__close-button--icons-size">
         <use
-          href="/src/images/svg/sprite5.svg#icon-close-black"
+          href="/src/images/icons.svg#icon-close"
           width="17"
           height="17"
         ></use>
-      </svg>-->
+      </svg>
     </button>
 
     <!--modal window-->
