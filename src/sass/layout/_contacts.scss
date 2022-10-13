@@ -2,12 +2,14 @@
   background: linear-gradient(transparent 345px, var(--base-bg-color) 0);
   @media screen and (min-width: 768px) {
     background: linear-gradient(transparent 304px, var(--base-bg-color) 0);
+    width: 100%;
   }
   @media screen and (min-width: 1200px) {
     background: linear-gradient(transparent 96px, var(--base-bg-color) 0);
   }
 }
 .contact {
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
