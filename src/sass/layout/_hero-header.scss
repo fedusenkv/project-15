@@ -1100,6 +1100,15 @@ a {
   }
 }
 
+.header__mark {
+  position: absolute;
+  left: 256px;
+  top: 470px;
+  width: 40px;
+  height: 14px;
+  fill: var(--second-text-color);
+}
+
 .hero-img-icearrow {
   box-sizing: border-box;
   position: absolute;
