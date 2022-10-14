@@ -56,19 +56,17 @@
 
 .footer_social-link:focus {
   fill: #fcfcfc;
-  width: 50px;
-  height: 50px;
   outline: none;
   column-gap: 10px;
+  transform: scale(1.5);
   transition: all 150ms cubic-bezier(0.23, 0.56, 0.74, 0.09);
 }
 
 .footer_social-link:hover {
   fill: #fcfcfc;
-  width: 50px;
-  height: 50px;
   outline: none;
   column-gap: 10px;
+  transform: scale(1.5);
   transition: all 150ms cubic-bezier(0.23, 0.56, 0.74, 0.09);
 }
 
