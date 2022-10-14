@@ -1,0 +1,89 @@
+<section id="home" class="header1">
+  <div class="container">
+    <nav class="header__navigation">
+      <button class="logo btn_hedr">
+        <img
+          class="header1__logo"
+          src="/src/images/hero-header/desktop/desktop-logo.png"
+          srcset="
+            /src/images/hero-header/desktop/desktop-logo.png    1x,
+            /src/images/hero-header/desktop/desktop-logo@2x.png 2x
+          "
+          alt="logo"
+        />
+      </button>
+      <ul class="header1__nav">
+        <li class="header1__list">
+          <a class="header-nav__link" href="#home">Home</a>
+        </li>
+        <li class="header1__list">
+          <a class="header-nav__link" href="#about">How it's made?</a>
+        </li>
+        <li class="header1__list">
+          <a class="header-nav__link" href="#products">Our products</a>
+        </li>
+        <li class="header1__list">
+          <a class="header-nav__link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+      <div class="header1__btn">
+        <button class="header-btn btn_hedr" type="submit" mob-open>
+          <svg class="icon-menu__btm">
+            <use href="/src/images/icons.svg#icon-Burger"></use>
+          </svg>
+        </button>
+        <button class="btn header-button1" type="submit" chack-modal-open>
+          Buy now
+        </button>
+      </div>
+    </nav>
+    <!-- modal -->
+  </div>
+</section>
+<!-- modal-menu -->
+<section class="header__maodal is-hidden" bob-data-modal>
+  <div class="container">
+    <div class="mob-menu">
+      <div class="mod-menu__navigation">
+        <div class="mob-menu__btn">
+          <button class="mob-manu__logo btn_hedr">
+            <img
+              class="header1__logo"
+              src="/src/images/hero-header/desktop/desktop-logo.png"
+              srcset="
+                /src/images/hero-header/desktop/desktop-logo.png    1x,
+                /src/images/hero-header/desktop/desktop-logo@2x.png 2x
+              "
+              alt="logo"
+            />
+          </button>
+          <button class="mob-menu__close btn_hedr" type="submit" mob-close>
+            <svg class="icon-menu__btm">
+              <use href="/src/images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mob-menu__navigation">
+          <ul class="mob-menu__block">
+            <li class="mob-menu__list" mob-1>
+              <a class="mob-menu__text" href="#">Home</a>
+            </li>
+            <li class="mob-menu__list" mob-2>
+              <a class="mob-menu__text" href="#about">How it's made?</a>
+            </li>
+            <li class="mob-menu__list" mob-3>
+              <a class="mob-menu__text" href="#products">Our products</a>
+            </li>
+            <li class="mob-menu__list" mob-4>
+              <a class="mob-menu__text" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <button class="btn mob-menu__button1" type="submit" chack-modal-open1>
+        Buy now
+      </button>
+    </div>
+  </div>
+</section>

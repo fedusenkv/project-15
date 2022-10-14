@@ -1,0 +1,83 @@
+<div class="backdrop is-hidden" chack-data-modal>
+  <div class="modal-head">
+    <buttom class="modal-prod__close" chack-modal-close>
+      <svg class="modal-prod__icon">
+        <use href="/src/images/icons.svg#icon-close"></use>
+      </svg>
+    </buttom>
+    <p class="modal-head__item">Buy now</p>
+    <!-- чекбокс -->
+    <form class="modal-head__chakblock">
+      <label class="modal-head__chak1">
+        <input
+          class="header-checked1"
+          type="radio"
+          name="color"
+          value="red"
+          checked
+        />
+        <span class="mod-bgr_chakc chack-color1">ice cream</span>
+        <div class="modal-head__bgr bgr-chack1">
+          <span class="modal-head__img"></span>
+        </div>
+      </label>
+      <label class="modal-head__chak2">
+        <input
+          class="header-checked2"
+          type="radio"
+          name="color"
+          value="red"
+          checked
+        />
+        <span class="mod-bgr_chakc chack-color2">ice coffee</span>
+        <div class="modal-head__bgr bgr-chack2">
+          <span class="modal-head__img"></span>
+        </div>
+      </label>
+      <label class="modal-head__chak3">
+        <input class="header-checked3" type="radio" name="color" value="red" />
+        <span class="mod-bgr_chakc chack-color3">milkshake</span>
+        <div class="modal-head__bgr bgr-chack3">
+          <span class="modal-head__img"></span>
+        </div>
+      </label>
+    </form>
+
+    <ul class="modal-head__lists">
+      <li class="modal-head__list"></li>
+      <li class="modal-head__list"></li>
+      <li class="modal-head__list"></li>
+    </ul>
+    <form action="" class="modal-head__form">
+      <ul class="form-head__items">
+        <li class="form-head__list">
+          <input
+            class="form-head__input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+          />
+        </li>
+        <li class="form-head__list">
+          <input
+            class="form-head__input"
+            type="text"
+            id="user-phone"
+            name="user-phone"
+            placeholder="Phone"
+          />
+        </li>
+        <li class="form-head__list">
+          <textarea
+            class="form-head__message"
+            name="user-message"
+            rows="5"
+            placeholder="Comment"
+          ></textarea>
+        </li>
+      </ul>
+      <button class="fone__btn btn" chack-2 type="submit">Submit</button>
+    </form>
+  </div>
+</div>
