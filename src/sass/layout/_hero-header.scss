@@ -818,9 +818,10 @@ a {
   padding: 12px 34px 12px 34px;
   margin-right: 8px;
 
-@media screen and (min-width: 768px)  {
+  @media screen and (min-width: 768px) {
     max-width: 152px;
-      padding: 12px 34px;}
+    padding: 12px 34px;
+  }
 
   @media screen and (max-width: 1199px) {
     width: 62px;
@@ -1105,12 +1106,16 @@ a {
 }
 
 .header__mark {
-  position: absolute;
   left: 256px;
   top: 470px;
   width: 40px;
   height: 14px;
   fill: var(--second-text-color);
+  margin-top: 32px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
 }
 
 .hero-img-icearrow {
