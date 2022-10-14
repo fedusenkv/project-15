@@ -36,7 +36,11 @@
 
 .products__item {
   display: block;
-
+    &:hover,
+    &:focus {
+      transform: scale(1.012);
+      box-shadow: 11px 21px 93px -62px;
+    }
   @media screen and (min-width: 768px) {
     width: calc((100% - 32px) / 3);
   }
