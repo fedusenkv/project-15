@@ -14,7 +14,7 @@ html {
 .btn-up-link {
   position: fixed;
   color: var(--base-text-color);
-  z-index: 999;
+  z-index: 9;
   bottom: 30px;
   right: 30px;
   width: 50px;
@@ -170,7 +170,7 @@ html {
   width: 100%;
   padding: 12px 20px 63px;
   background: var(--base-bg-color);
-  z-index: 999;
+  z-index: 10;
   @media screen and (min-width: 1200px) {
     display: none;
   }
