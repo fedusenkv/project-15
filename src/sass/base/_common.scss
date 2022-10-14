@@ -46,12 +46,13 @@ body {
   background-image: url(../images/фон.jpg);
   background-repeat: repeat-y;
   background-position: center;
-  background-size: 1200px;
- cursor: url(../images/cursor.png), auto;
+
+  background-size: cover;
+  cursor: url(../images/cursor.png), auto;
 }
 .text-decor {
   font-family: var(--secondary-font);
   font-size: 14px;
   font-weight: 500;
-  color: var(--base-text-color); 
+  color: var(--base-text-color);
 }
