@@ -199,10 +199,12 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 140%;
+
   @media screen and (min-width: 767px) {
     height: 42px;
   }
 }
+
 .form-head__list:not(:last-child) {
   margin-bottom: 12px;
 }
@@ -216,10 +218,14 @@
   background: #f8d24e1a;
   border-radius: 10px;
   padding: 11px;
+
+  @media screen and (min-width: 767px) {
+    height: 84px;
+  }
 }
 .form-head__items {
   margin-bottom: 24px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767px) {
     width: 368px;
     margin: 0 auto 24px;
   }

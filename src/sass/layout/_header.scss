@@ -42,8 +42,18 @@ html {
 }
 
 .header1 {
+  padding: 12px 0 0;
   background-color: var(--base-bg-color);
+
+  @media screen and (min-width: 768px) {
+    padding: 20px 0 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 8px 0 0;
+  }
 }
+
 .btn_hedr {
   border: none;
   background: transparent;
