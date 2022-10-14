@@ -1,3 +1,7 @@
+.reviews {
+  margin-bottom: 48px;
+}
+
 .image-slider__photo {
   margin: 0 auto;
 }
@@ -45,6 +49,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews {
+    margin-bottom: 80px;
+  }
+
   .image-slider__reviews {
     font-weight: 500;
     font-size: 14px;
@@ -64,6 +72,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .reviews {
+    margin-bottom: 100px;
+  }
+
   .image-slider__image {
     width: 968px;
     margin-left: auto;
