@@ -61,10 +61,19 @@
   position: absolute;
   width: 130px;
   height: 130px;
-  background-image: url('/src/images/hero-header/mobile/mobile-ice-cream.png');
+
   background-position: center;
   border-radius: 50%;
   top: -8px;
+}
+.bgr_img1 {
+  background-image: url('/src/images/hero-header/header-modal-ice.png');
+}
+.bgr_img2 {
+  background-image: url('/src/images/hero-header/header-modal-coffee.png');
+}
+.bgr_img3 {
+  background-image: url('/src/images/hero-header/header-modal-milkshake.png');
 }
 .header-checked1 {
   appearance: none;
@@ -211,4 +220,11 @@
     width: 368px;
     margin: 0 auto 24px;
   }
+}
+.mob-menu__svg {
+  width: 12px;
+  height: 12px;
+  fill: var(--base-text-color);
+  margin-left: 7px;
+  padding-top: 2px;
 }
