@@ -1,61 +1,65 @@
 .modal-franchise {
-    
-    display: flex;
-        align-items: center;
-        flex-direction: column;
-    background-color: white;
-    max-width: 280px;;
-    max-height: 674px;;
-    position: absolute;
-    border-radius: 4px;
-    padding: 28px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    @media screen and (min-width:768px) {
-        min-width: 568px;
-        min-height: 458px;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-right: 60px;
-        padding-left: 60px;
-    }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  max-width: 280px;
+  max-height: 674px;
+  position: absolute;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 28px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  @media screen and (min-width: 768px) {
+    min-width: 568px;
+    min-height: 458px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
 }
 .franchise__text {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 140%;
-        margin-bottom: 24px;
-        @media screen and (min-width:768px) {
-        font-size: 16px;   
-        margin-bottom: 32px;         
-        }
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 }
 
 .modal-text__window {
-    background: rgba(248, 210, 78, 0.1);
-        border: 1px solid #84A178;
-        border-radius: 10px;
-        margin-bottom: 12px;
-        height: 32px;
-        min-width: 224px;
-        @media screen and (min-width:768px) {
-            margin-bottom: 16px;
-            min-width: 368px;
-        }
-       
+  padding: 11px 16px;
+  background: rgba(248, 210, 78, 0.1);
+  border: 1px solid #84a178;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  height: 32px;
+  min-width: 224px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 16px;
+    height: 42px;
+    min-width: 368px;
+  }
 }
 .modal-text__block > .modal-text__window:last-child {
-    margin-bottom: 24px;
-    @media screen and (min-width:768px) {
-        margin-bottom: 36px;
-        
-    }
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 32px;
+  }
 }
 .modal-text__block-last .modal-text__window {
-    height: 64px;
-    @media screen and (min-width:768px) {
-        height: 84px;
-        
-    }
+  height: 64px;
+  @media screen and (min-width: 768px) {
+    height: 84px;
+  }
 }
